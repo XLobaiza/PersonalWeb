@@ -1,181 +1,51 @@
-/*{
-    border: solid 1px #FFFFFF;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
-} */
 body {
-    background-color:#2F3437;
-   
-}
-.Heading{
-    margin: 200px 0px 50px 0px;
-
-
-}
-h1{
-    font-size: 45px;
-}
-.Blue-Box{
-    background-color: #2D4355;
-    padding: 4px;
-}
-.White-Box{
-    background-color:#44494B;
-    padding: 1px;
-}
-.Brown-Box{
-    background-color: #4C3D36;
-    padding: 1px;
-}
-.Header-Code {
-    height: 200px;
-    width: 200vh;
-}
-img{
-    width: 100vh;
-}
-.Body-content{
-    padding: 0px 51px 10px 30px;
-    font-family: 'Rubik', sans-serif;
-    color: #ffffff;
-}
-p{
-    padding-left: 16px;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 16px;
-    color: #ffffff;
-}
-.Intro{
-    border-left: thick solid #FFFFFF;
-}
-.title{
-    font-size: 10px;
-    margin-top: -15px;
-}
-.Heading-Work{
-    font-size: 18px;
-    margin-top: -10px;
-}
-.Box-Text{
-    width: 315px;
-    height:170px;
-    margin-top: 30px;
-
-}
-
-.quote{
-    font-size: 36px;
-    margin: 0px 0px -30px 0px;
-}
-.Workflow{
-    padding-top: 20px;
-}
-
-.experiences {
-    padding: 10px 0px 10px 0px;
-    margin: 60px 0px 60px 0px;
-}
-a {
-    font-family: 'Roboto Mono', monospace;
-    color: white;
-}
-.Section-Linear{
-    margin: 60px 0px 60px 0px;
-}
-
-button{
-    font-family: 'Roboto Mono', monospace;
-    font-size: 12px;
-    background: none;
-    color: inherit;
-    border: none ;
-    padding: 0;
-    margin: 30;
-    cursor: pointer;
-    outline: inherit;
-}
-.Go-To{
-    padding: 20px;
-    margin: 20px 0px 10px 0px;
-    border: solid 1px #FFFFFF ;
-}
-.links{
-    padding-right: 150px;
-}
-.links2{
-    padding-right: 165px;
-}
-.Final-Buttons{
-    display: inline-flex;
+    background-color: #000000; /* Dark background */
+    color: #fff; /* White text */
+    font-family: 'Inter', sans-serif;
+    display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-}
-
-.box-columns1{
-    display: flex;
-    flex-direction: row;
-    margin-left: -16px;
-}
-
-.box-columns2{
-    display: flex;
-    flex-direction: row;
-    margin-left: -16px;
-}
-Footer{
-    margin: 50px 0px 50px 0px;
-    position: relative;
+    justify-content: center;
     align-items: center;
+    max-width: 700px;
+    height: 100vh;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 2.5em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
 }
 
-/*Desktop */
-@media (min-width: 769px){
-    .box-columns1{
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .box-columns2{
-        display: flex;
-        flex-direction: row;
-    }
-   
-   
-    .Intro {
-        width: 541px;
-    }
-
-    
-}
-/*Tablet */
-@media (min-width: 375px) and (max-width: 768px){
-
-
-    .box-columns1{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
-    .box-columns2{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .Intro {
-        width: 415px;
-    }
-
+header, main, footer {
+    width: 80%; /* Adjust this to control the width of your content */
 }
 
+a {
+    color: teal; /* Purple links */
+    margin: 10px 0; /* Adjust this to change the amount of space */
+}
 
-@media (max-width: 480px){
+p{
+    margin-top: 1.25em;
+    margin-bottom: 1.6em;
+    font-size: 20px;
+}
 
-    .box-columns1{
-        display: flex;
-        flex-wrap: wrap;
-    }
+a:hover {
+    color: white; /* Lighter purple on hover */
+}
+
+li{
+    margin: 10px 0; /* Adjust this to change the amount of space */
+}
+
+ol{
+    list-style: none;
+}
+
+ul {
+    padding-left: 25px;
     
-    .box-columns2{
-        display: flex;
-        flex-wrap: wrap;
-    
-    }
 }
