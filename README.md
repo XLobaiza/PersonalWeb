@@ -3,4 +3,4 @@
 <p>This is my personal web</p>
 <p>Feel free to go an see it</p>
 
-<a href="https://personal-web-black.vercel.app"> https://personal-web-black.vercel.app</a>
+<a href="https://personal-web-black.vercel.app"> Website</a>
