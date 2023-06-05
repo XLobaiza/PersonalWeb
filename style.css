@@ -5,6 +5,9 @@ body {
     color: #fff; /* White text */
     font-family: 'Inter', sans-serif;
     display: flex;
+    line-height: 1.6em;
+    letter-spacing: .04em;
+    text-rendering: optimizeLegibility;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -30,7 +33,7 @@ a {
 p{
     margin-top: 1.25em;
     margin-bottom: 1.6em;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 a:hover {
