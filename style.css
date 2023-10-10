@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 body {
-    background-color: #363636; /* Background */
+    background-color: #000000; /* Background */
     color: #fff; /* White text */
     font-family: 'Inter', sans-serif;
     display: flex;
@@ -26,7 +26,7 @@ header, main, footer {
 }
 
 a {
-    color: pink; /* links */
+    color: teal; /* links */
     margin: 10px 0; /* Adjust this to change the amount of space */
 }
 
